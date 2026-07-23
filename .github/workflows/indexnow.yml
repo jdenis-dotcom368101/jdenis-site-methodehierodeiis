@@ -1,0 +1,35 @@
+name: IndexNow ping
+
+# Automatisation GEO : à chaque push sur main, les pages HTML modifiées
+# sont soumises à IndexNow (Bing → alimente aussi ChatGPT search).
+on:
+  push:
+    branches: [main]
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Submit changed pages to IndexNow
+        run: |
+          KEY="55245e56f75beca103761b19002548ed"
+          HOST="methodehierodeiis.com"
+
+          # Pages HTML modifiées par ce push (hors dossiers de travail locaux)
+          CHANGED=$(git diff --name-only HEAD^ HEAD -- '*.html' \
+            | grep -vE '^(netlify-|variante|design-v3|hierodeiis-landing)' || true)
+
+          [ -z "$CHANGED" ] && { echo "No HTML changes, skipping."; exit 0; }
+
+          URLS=$(echo "$CHANGED" | sed -E 's|^index\.html$||' \
+            | sed -E "s|^(.*)$|\"https://$HOST/\1\"|" | paste -sd, -)
+
+          echo "Submitting: $URLS"
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{\"host\":\"$HOST\",\"key\":\"$KEY\",\"keyLocation\":\"https://$HOST/$KEY.txt\",\"urlList\":[$URLS]}" \
+            -w "\nHTTP %{http_code}\n"
