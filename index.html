@@ -36,19 +36,17 @@
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
-{"@type":"Organization","@id":"https://methodehierodeiis.com/#organization","name":"HIERODEIIS","alternateName":"Méthode HIERODEIIS","url":"https://methodehierodeiis.com/","logo":{"@type":"ImageObject","url":"https://methodehierodeiis.com/img/logo-hierodeiis.jpeg"},"description":"Masterclass de transition IA pour dirigeants : 3 jours immersifs, 15 dirigeants d'un même secteur, une feuille de route IA exploitable.","founder":{"@id":"https://methodehierodeiis.com/#jerome"},"sameAs":["https://jaydenis.com/","https://aivalue.fr/"],"slogan":"Keeping AI Human"},
+{"@type":"Organization","@id":"https://methodehierodeiis.com/#organization","name":"HIERODEIIS","alternateName":"Méthode HIERODEIIS","url":"https://methodehierodeiis.com/","logo":{"@type":"ImageObject","url":"https://methodehierodeiis.com/img/logo-hierodeiis.jpeg"},"description":"Masterclass de transition IA pour dirigeants : 3 jours immersifs, 15 dirigeants d'un même secteur, une feuille de route IA exploitable.","founder":{"@id":"https://methodehierodeiis.com/#jerome"},"sameAs":["https://jaydenis.com/"],"slogan":"Keeping AI Human"},
 {"@type":"Person","@id":"https://methodehierodeiis.com/#jerome","name":"Jérôme Denis","jobTitle":"Créateur de la méthode HIERODEIIS, consultant senior IA et gouvernance des données","worksFor":{"@id":"https://methodehierodeiis.com/#organization"},"url":"https://jaydenis.com/","sameAs":["https://jaydenis.com/"],"image":"https://methodehierodeiis.com/img/jerome-denis.jpg","knowsAbout":["Intelligence artificielle","Gouvernance des données","Transformation digitale","Stratégie IA sectorielle"]},
 {"@type":"WebSite","@id":"https://methodehierodeiis.com/#website","url":"https://methodehierodeiis.com/","name":"HIERODEIIS — La masterclass IA des dirigeants","inLanguage":"fr-FR","publisher":{"@id":"https://methodehierodeiis.com/#organization"}},
 {"@type":"WebPage","@id":"https://methodehierodeiis.com/#webpage","url":"https://methodehierodeiis.com/","name":"HIERODEIIS — La masterclass IA des dirigeants","isPartOf":{"@id":"https://methodehierodeiis.com/#website"},"about":{"@id":"https://methodehierodeiis.com/#organization"},"primaryImageOfPage":"https://methodehierodeiis.com/img/jerome-denis.jpg","inLanguage":"fr-FR"},
-{"@type":"Course","@id":"https://methodehierodeiis.com/#course","name":"HIERODEIIS — Masterclass IA des dirigeants","description":"Trois jours immersifs où quinze dirigeants d'un même secteur identifient leurs cas d'usage IA prioritaires et construisent une feuille de route d'intégration à 12 mois.","provider":{"@id":"https://methodehierodeiis.com/#organization"},"inLanguage":"fr-FR","educationalLevel":"Dirigeants et cadres dirigeants","teaches":["Stratégie IA sectorielle","Cas d'usage IA prioritaires","Feuille de route d'intégration IA à 12 mois","Gouvernance de l'IA"],"offers":{"@type":"Offer","price":"4950","priceCurrency":"EUR","availability":"https://schema.org/InStock","url":"https://methodehierodeiis.com/#investissement","priceSpecification":{"@type":"PriceSpecification","price":"4950","priceCurrency":"EUR","valueAddedTaxIncluded":false}},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"Onsite","courseWorkload":"P3D","startDate":"2026-09-01","instructor":{"@id":"https://methodehierodeiis.com/#jerome"},"location":{"@type":"Place","name":"Le Philantro Lab","address":{"@type":"PostalAddress","addressLocality":"Paris","addressCountry":"FR"}}}},
+{"@type":"Course","@id":"https://methodehierodeiis.com/#course","name":"HIERODEIIS — Masterclass IA des dirigeants","description":"Trois jours immersifs où quinze dirigeants d'un même secteur identifient leurs cas d'usage IA prioritaires et construisent une feuille de route d'intégration à 12 mois.","provider":{"@id":"https://methodehierodeiis.com/#organization"},"inLanguage":"fr-FR","educationalLevel":"Dirigeants et cadres dirigeants","teaches":["Stratégie IA sectorielle","Cas d'usage IA prioritaires","Feuille de route d'intégration IA à 12 mois","Gouvernance de l'IA"],"offers":{"@type":"Offer","price":"4950","priceCurrency":"EUR","availability":"https://schema.org/InStock","url":"https://methodehierodeiis.com/#investissement","priceSpecification":{"@type":"PriceSpecification","price":"4950","priceCurrency":"EUR","valueAddedTaxIncluded":false}},"hasCourseInstance":{"@type":"CourseInstance","courseMode":"Onsite","courseWorkload":"P3D","instructor":{"@id":"https://methodehierodeiis.com/#jerome"},"location":{"@type":"Place","name":"Le Philantro Lab","address":{"@type":"PostalAddress","addressLocality":"Paris","addressCountry":"FR"}}}},
 {"@type":"BreadcrumbList","@id":"https://methodehierodeiis.com/#breadcrumb","itemListElement":[
 {"@type":"ListItem","position":1,"name":"Accueil","item":"https://methodehierodeiis.com/"},
 {"@type":"ListItem","position":2,"name":"Masterclass HIERODEIIS"}]}
 ]}
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/fonts.css">
 <style>
   :root{
     --navy:#0E1626; --navy-2:#16223A;
@@ -276,18 +274,6 @@
   .cta-float:hover{background:var(--gold);color:var(--navy)}
   @media(max-width:600px){.cta-float{right:14px;bottom:14px;padding:12px 18px;font-size:13px}}
 
-  /* bandeau cookies RGPD */
-  .cookie{position:fixed;left:22px;right:22px;bottom:22px;z-index:70;max-width:780px;margin:0 auto;background:var(--navy-2);border:1px solid var(--line-d);border-radius:16px;padding:22px 24px;box-shadow:0 16px 44px rgba(0,0,0,.45);display:none;gap:18px;align-items:center;flex-wrap:wrap}
-  .cookie.show{display:flex}
-  .cookie p{flex:1;min-width:250px;font-size:13.5px;line-height:1.55;color:var(--cream-soft)}
-  .cookie p a{color:var(--gold);text-decoration:underline}
-  .cookie .ck-acts{display:flex;gap:10px;flex-wrap:wrap}
-  .cookie button{font-family:inherit;font-weight:600;font-size:13px;padding:11px 22px;border-radius:999px;cursor:pointer;border:1px solid var(--line-d);background:transparent;color:var(--cream);transition:background .3s,border-color .3s,color .3s}
-  .cookie button.acc{background:var(--terra);border-color:var(--terra);color:#fff}
-  .cookie button.acc:hover{background:var(--gold);border-color:var(--gold);color:var(--navy)}
-  .cookie button.ref:hover{border-color:var(--gold);color:var(--gold)}
-  @media(max-width:600px){.cookie{left:12px;right:12px;bottom:12px;padding:18px}.cookie .ck-acts{width:100%}.cookie button{flex:1}}
-
   .reveal{transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
   html.js .reveal:not(.in){opacity:0;transform:translateY(30px)}
   .reveal.in{opacity:1;transform:none}
@@ -330,7 +316,7 @@
           <span class="l"><span>plus <span class="it terra">si</span>, mais <span class="it terra">avec qui</span>.</span></span>
         </h1>
         <p class="hero-lede reveal d1">Pendant 3 jours immersifs, 15 dirigeants partageant les mêmes enjeux identifient ensemble leurs problématiques prioritaires et définissent, avec Jérôme Denis, leurs besoins essentiels en IA — pour établir une feuille de route d'intégration adaptée à leur activité.</p>
-        <div class="hero-meta reveal d2"><b>Jérôme Denis</b> · Créateur de la méthode · AI VALUE <span class="gold">●</span> Financement selon votre statut</div>
+        <div class="hero-meta reveal d2"><b>Jérôme Denis</b> · Créateur de la méthode · JDENIS Consulting <span class="gold">●</span> Financement selon votre statut</div>
         <div class="hero-cta reveal d2">
           <a class="btn magnetic" href="https://calendly.com/jaydenis/15min" target="_blank" rel="noopener"><span>Réserver un échange</span></a>
           <a class="btn-dl" href="plaquette-hierodeiis.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Télécharger la plaquette</a>
@@ -342,7 +328,7 @@
         </div>
       </div>
       <div class="hero-fig reveal d2">
-        <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=760&h=950&fit=crop" alt="Cohorte de dirigeants en masterclass">
+        <img src="img/hero/cohorte-masterclass.jpg" alt="Cohorte de dirigeants en masterclass">
         <div class="chip">15 dirigeants · 3 jours</div>
       </div>
     </div>
@@ -357,9 +343,9 @@
         <p class="sec-sub">Le premier frein n'est ni le budget, ni la technique : c'est l'absence de cas d'usage clairs et de stratégie avant de se lancer. Et le sujet repose presque toujours sur une seule paire d'épaules.</p>
       </div>
       <div class="stats">
-        <div class="stat reveal"><div class="big">~<span class="cnt" data-to="6">0</span><small>/10</small></div><div class="cap">dirigeants de PME voient l'IA comme une question de survie à 3-5 ans</div></div>
-        <div class="stat reveal d1"><div class="big"><span class="cnt" data-to="7">0</span><small>/10</small></div><div class="cap">transformations IA portées seul par le dirigeant</div></div>
-        <div class="stat reveal d2"><div class="big">N<small>o</small> <span class="cnt" data-to="1">0</span></div><div class="cap">frein cité : le manque de cas d'usage — la formation est le premier levier</div></div>
+        <div class="stat reveal"><div class="big">~<span class="cnt" data-to="6">6</span><small>/10</small></div><div class="cap">dirigeants de PME voient l'IA comme une question de survie à 3-5 ans</div></div>
+        <div class="stat reveal d1"><div class="big"><span class="cnt" data-to="7">7</span><small>/10</small></div><div class="cap">transformations IA portées seul par le dirigeant</div></div>
+        <div class="stat reveal d2"><div class="big">N<small>o</small> <span class="cnt" data-to="1">1</span></div><div class="cap">frein cité : le manque de cas d'usage — la formation est le premier levier</div></div>
       </div>
       <p class="src reveal">Sources : Bpifrance Le Lab · Ipsos/Eurostat 2025 — chiffres indicatifs, à confirmer avant publication.</p>
     </div>
@@ -390,7 +376,7 @@
   <section class="pad" id="methode">
     <div class="wrap">
       <div class="split rev">
-        <div class="fig reveal"><img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=760&h=600&fit=crop" alt="Quinze dirigeants d'un même secteur réunis"></div>
+        <div class="fig reveal"><img src="img/hero/dirigeants-secteur.jpg" alt="Quinze dirigeants d'un même secteur réunis"></div>
         <div class="bd reveal d1">
           <div class="kick">03 · La méthode</div>
           <h2 class="sec-title" style="margin:14px 0 18px">Une décision se prend mieux <span class="it terra">entre pairs</span> qu'en solitaire.</h2>
@@ -489,7 +475,7 @@
       <div class="reveal" style="margin-bottom:50px"><div class="kick">06 · Investissement &amp; financement</div></div>
       <div class="invest">
         <div class="price reveal">
-          <div class="num"><span class="cnt" data-to="4950" data-sep="1">0</span></div>
+          <div class="num"><span class="cnt" data-to="4950" data-sep="1">4 950</span></div>
           <div class="unit">€ HT / 3 jours · par dirigeant</div>
           <p>Masterclass, lieu, restauration, rapport personnalisé et suivi inclus.</p>
         </div>
@@ -596,7 +582,7 @@
 
 <footer>
   <div class="wrap">
-    <div><a href="https://aivalue.fr/" target="_blank" rel="noopener">AI VALUE</a> · <b>Keeping AI Human</b> · <a href="https://noianogain.com/" target="_blank" rel="noopener">NOIA NOGAIN</a></div>
+    <div><a href="https://jaydenis.com/" target="_blank" rel="noopener">JDENIS Consulting</a> · <b>Keeping AI Human</b></div>
     <div><a href="blog/">Blog</a> · <a href="plaquette-hierodeiis.pdf" download>Télécharger la plaquette (PDF)</a> · <a href="mentions-legales.html">Mentions légales &amp; RGPD</a></div>
     <div>Le virage IA ne se prend pas seul.</div>
   </div>
@@ -605,29 +591,9 @@
 <!-- CTA flottant -->
 <a class="cta-float" id="ctaFloat" href="https://calendly.com/jaydenis/15min" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Réserver un échange</a>
 
-<!-- Bandeau de consentement cookies (RGPD) -->
-<div class="cookie" id="cookieBanner" role="dialog" aria-label="Gestion des cookies">
-  <p>Ce site utilise des cookies strictement nécessaires à son fonctionnement, ainsi que des services externes (Calendly, polices et scripts hébergés) susceptibles de déposer des cookies ou de traiter votre adresse IP. <a href="mentions-legales.html">En savoir plus</a>.</p>
-  <div class="ck-acts">
-    <button class="ref" id="ckRefuse" type="button">Refuser</button>
-    <button class="acc" id="ckAccept" type="button">Accepter</button>
-  </div>
-</div>
-<script>
-(function(){
-  var KEY='hierodeiis_cookie_consent', b=document.getElementById('cookieBanner');
-  function close(v){try{localStorage.setItem(KEY,v);}catch(e){} if(b)b.classList.remove('show');}
-  var stored=null; try{stored=localStorage.getItem(KEY);}catch(e){}
-  if(!stored && b){ setTimeout(function(){b.classList.add('show');}, 800); }
-  var a=document.getElementById('ckAccept'), r=document.getElementById('ckRefuse');
-  if(a) a.addEventListener('click',function(){close('accepted');});
-  if(r) r.addEventListener('click',function(){close('refused');});
-})();
-</script>
-
-<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="js/vendor/lenis.min.js"></script>
+<script src="js/vendor/gsap.min.js"></script>
+<script src="js/vendor/ScrollTrigger.min.js"></script>
 <script>
 window.addEventListener('load',function(){
   document.body.classList.remove('preload');
