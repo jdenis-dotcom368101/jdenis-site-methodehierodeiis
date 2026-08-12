@@ -25,7 +25,8 @@ jobs:
 
           [ -z "$CHANGED" ] && { echo "No HTML changes, skipping."; exit 0; }
 
-          URLS=$(echo "$CHANGED" | sed -E 's|^index\.html$||' \
+          # index.html -> "/" ; blog/index.html -> "/blog/" (formes canoniques)
+          URLS=$(echo "$CHANGED" | sed -E 's|index\.html$||' \
             | sed -E "s|^(.*)$|\"https://$HOST/\1\"|" | paste -sd, -)
 
           echo "Submitting: $URLS"

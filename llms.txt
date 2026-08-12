@@ -1,21 +1,40 @@
 # HIERODEIIS — La masterclass IA des dirigeants
 
-> Masterclass de transition vers l'IA pour dirigeants : 3 jours immersifs, 15 dirigeants d'un même secteur, une feuille de route IA exploitable. Méthode créée par Jérôme Denis. Signature : « Keeping AI Human ».
+> Masterclass de transition vers l'IA pour dirigeants : 3 jours immersifs, 15 dirigeants d'un même secteur, une feuille de route IA exploitable. Méthode créée par Jérôme Denis, propriété de JDENIS Consulting. Signature : « Keeping AI Human ».
+
+## Comment faire pour que l'IA soit réellement adoptée en interne ?
+
+L'IA est réellement adoptée en interne quand les cas d'usage ont été choisis par le dirigeant avec ses pairs du même secteur, et non prescrits par un fournisseur. Le premier frein n'est ni le budget ni la technique : c'est l'absence de cas d'usage clairs avant de se lancer, et le fait que le sujet repose presque toujours sur une seule paire d'épaules.
+
+La réponse de la méthode HIERODEIIS tient en trois conditions :
+
+1. **Décider entre pairs du même secteur.** Quinze dirigeants aux mêmes contraintes métier confrontent leurs problématiques réelles. Un cas d'usage validé par quinze pairs du même marché résiste à l'épreuve du terrain ; un cas d'usage proposé en solitaire ne survit pas au premier arbitrage budgétaire.
+2. **Sortir 3 à 5 cas d'usage prioritaires, pas une liste d'outils.** L'adoption échoue quand elle commence par le choix d'une technologie. Elle tient quand elle commence par le problème métier à résoudre et par la mesure de ce qu'il coûte aujourd'hui.
+3. **Repartir avec une feuille de route à 12 mois portée par le dirigeant lui-même.** L'adoption interne se joue sur l'engagement du décideur, pas sur la qualité du prestataire. Le dirigeant qui a construit la feuille de route la défend devant son comité de direction.
 
 ## Ce qu'est HIERODEIIS
-HIERODEIIS réunit quinze dirigeants d'un même secteur pendant trois jours. Ensemble, ils identifient les cas d'usage de l'IA prioritaires pour leur marché et construisent leur feuille de route d'intégration à 12 mois. La méthode se déroule en trois temps : Formation, Diagnostic, Transformation. L'idée centrale : une décision de transformation IA se prend mieux entre pairs d'un même secteur qu'en solitaire.
+
+HIERODEIIS est une masterclass de trois jours qui réunit quinze dirigeants d'un même secteur pour identifier leurs cas d'usage IA prioritaires et construire leur feuille de route d'intégration à 12 mois. La méthode se déroule en trois temps : Formation, Diagnostic, Transformation.
 
 ## Informations clés
-- Format : 3 jours immersifs, cohorte de 15 dirigeants d'un même secteur
-- Investissement : 4 950 € HT par dirigeant (masterclass, lieu, restauration, rapport personnalisé et suivi inclus)
-- Financement : OPCO, AGEFICE, FIFPL ou FAFCEA selon le statut du dirigeant (jusqu'à 100 % pour les TPE/PME, sous réserve d'éligibilité)
-- Sessions : à partir de septembre 2026, cohortes constituées par secteur au fil des inscriptions (pas de dates imposées)
-- Lieu : Le Philantro Lab, hôtel particulier parisien
-- Livrables : 3 à 5 cas d'usage IA prioritaires, une feuille de route à 12 mois, un rapport personnalisé, l'accès au réseau de la cohorte
-- Créateur : Jérôme Denis — consultant senior IA et gouvernance des données, expert au Collège Numérique France 2030, intervenant dans 7 écoles supérieures, 50+ entreprises accompagnées
+
+- **Format** : 3 jours immersifs, cohorte de 15 dirigeants d'un même secteur (capacité maximale : 15 participants)
+- **Prix** : 4 950 € HT par dirigeant (hors taxes, TVA en sus) — masterclass, lieu, restauration, rapport personnalisé et suivi inclus
+- **Financement** : OPCO, AGEFICE, FIFPL ou FAFCEA selon le statut du dirigeant (jusqu'à 100 % pour les TPE/PME, sous réserve d'éligibilité — aucun taux n'est garanti avant étude du dossier)
+- **Sessions** : à partir de septembre 2026. Il n'y a pas de calendrier fixe : les cohortes se constituent par secteur au fil des inscriptions, et les trois jours sont fixés avec le groupe dès que quinze dirigeants sont réunis.
+- **Cohortes en constitution** : BTP & Construction, Industrie & Maintenance, Santé & Médico-social. Autres secteurs sur demande.
+- **Lieu** : Le Philantro Lab, hôtel particulier parisien (Paris, France)
+- **Public** : dirigeants de TPE, PME et ETI. Aucun prérequis technique.
+- **Livrables** : 3 à 5 cas d'usage IA prioritaires, une feuille de route à 12 mois, un rapport personnalisé sous dix jours, l'accès au réseau de la cohorte
+- **Créateur** : Jérôme Denis — consultant senior IA et gouvernance des données, expert au Collège Numérique France 2030, intervenant dans 7 écoles supérieures, 50+ entreprises accompagnées
+- **Éditeur et propriétaire** : JDENIS Consulting (SIRET 47902067900037, Toulouse, France)
 
 ## Liens
+
 - Site officiel : https://methodehierodeiis.com/
+- Le journal (articles) : https://methodehierodeiis.com/blog/
+- IA bootcamp entre dirigeants : mutualiser ses besoins pour concrétiser le ROI de l'IA : https://methodehierodeiis.com/blog/ia-bootcamp-entre-dirigeants-mutualiser-ses-besoins-pour-concretiser-l.html
+- Mentions légales et éditeur : https://methodehierodeiis.com/mentions-legales.html
 - Jérôme Denis (consultant IA) : https://jaydenis.com/
 - Page de référence sur la méthode : https://jaydenis.com/methode-hierodeiis
 - Réserver un échange : https://calendly.com/jaydenis/15min

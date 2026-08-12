@@ -1,18 +1,42 @@
 User-agent: *
 Allow: /
 
-# Assistants IA explicitement bienvenus (visibilité GEO)
+# Assistants IA explicitement bienvenus (visibilité GEO).
+# Redondant avec le "Allow: /" ci-dessus : sert de déclaration d'intention
+# explicite et évite qu'un futur durcissement du bloc générique les exclue.
+
+# Crawlers d'entraînement
 User-agent: GPTBot
 Allow: /
-User-agent: OAI-SearchBot
-Allow: /
-User-agent: ChatGPT-User
-Allow: /
-User-agent: PerplexityBot
+User-agent: ClaudeBot
 Allow: /
 User-agent: Google-Extended
 Allow: /
-User-agent: ClaudeBot
+User-agent: Applebot-Extended
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Crawlers d'index de recherche (ceux qui alimentent les réponses citées)
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: Googlebot
+Allow: /
+
+# Agents déclenchés par un utilisateur
+User-agent: ChatGPT-User
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: Perplexity-User
 Allow: /
 
 Sitemap: https://methodehierodeiis.com/sitemap.xml
