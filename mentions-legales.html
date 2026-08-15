@@ -41,6 +41,10 @@
   .foot a{color:var(--gold)}
   @media(max-width:768px){.wrap{padding:44px 22px 80px}.bar{padding:16px 22px}}
 </style>
+<!-- Mesure d'audience (Google Analytics) : chargée uniquement après consentement explicite. Voir /consent.js -->
+<script src="/consent.js" defer></script>
+<!-- Mesure des clics d'intention (contact, téléphone, e-mail, offres). Envoi conditionné au consentement. Voir /cta.js -->
+<script src="/cta.js" defer></script>
 </head>
 <body>
 
@@ -51,7 +55,7 @@
 
 <div class="wrap">
   <h1>Mentions légales &amp; conditions d'utilisation</h1>
-  <p class="date">Dernière mise à jour : 11 août 2026</p>
+  <p class="date">Dernière mise à jour : 15 août 2026</p>
 
   <h2>1. Éditeur du site</h2>
   <p>
@@ -98,9 +102,12 @@
   <p>Pour exercer ces droits, adressez votre demande à : <a href="mailto:jdenis@jaydenis.com">jdenis@jaydenis.com</a></p>
   <p>En cas de litige, vous pouvez déposer une réclamation auprès de la <a href="https://www.cnil.fr" target="_blank" rel="noopener">CNIL</a>.</p>
 
-  <h2>7. Cookies</h2>
-  <p>Ce site ne dépose aucun cookie. Aucun outil de mesure d'audience, de traceur publicitaire ou de pixel n'est présent. Les polices (Fraunces, Inter) et les scripts d'animation (Lenis, GSAP) sont hébergés directement sur ce site et ne font l'objet d'aucun appel vers un serveur tiers : votre navigateur ne contacte aucun domaine externe au chargement de la page. Il n'y a donc pas de bandeau de consentement, celui-ci n'ayant d'objet que lorsqu'un traitement nécessite un choix préalable.</p>
-  <p>Un seul service tiers est mentionné sur le site : <a href="https://calendly.com" target="_blank" rel="noopener">Calendly</a>, pour la prise de rendez-vous. Il ne s'agit que d'un lien hypertexte classique (nouvel onglet) : aucune ressource Calendly n'est chargée tant que vous ne cliquez pas dessus. En cliquant, vous accédez au site de Calendly, qui applique sa propre politique de cookies et de confidentialité, indépendante de celle de ce site.</p>
+  <h2 id="cookies">7. Cookies et mesure d'audience</h2>
+  <p>Ce site ne dépose aucun cookie publicitaire et ne pratique aucun profilage commercial.</p>
+  <p><strong>Mesure d'audience — Google Analytics 4</strong> (identifiant de mesure G-KQR2HQXM2L, propriété commune aux sites de JDENIS Consulting). Ce service dépose des cookies (_ga, _ga_*) et transmet à Google des données de navigation (pages consultées, adresse IP tronquée, type d'appareil, page d'origine). Il n'est chargé qu'après votre acceptation explicite via le bandeau affiché lors de votre première visite : tant que vous n'avez pas cliqué sur « Accepter », aucune requête n'est envoyée à Google et aucun cookie de mesure n'est déposé. Refuser est aussi simple qu'accepter, se fait en un seul clic, et n'a aucune conséquence sur l'accès au site ni sur son fonctionnement.</p>
+  <p>Votre choix est conservé dans le stockage local de votre navigateur pendant six mois, après quoi il vous est redemandé. Vous pouvez le modifier à tout moment via le lien « Gérer les cookies » en pied de page. Un refus supprime également les cookies de mesure éventuellement déposés lors d'une visite précédente. Ces cookies peuvent aussi être effacés depuis les réglages de votre navigateur.</p>
+  <p>Hors mesure d'audience acceptée, votre navigateur ne contacte aucun domaine externe au chargement de la page : les polices (Fraunces, Inter) et les scripts d'animation (Lenis, GSAP) sont hébergés directement sur ce site.</p>
+  <p>Un autre service tiers est mentionné sur le site : <a href="https://calendly.com" target="_blank" rel="noopener">Calendly</a>, pour la prise de rendez-vous. Il ne s'agit que d'un lien hypertexte classique (nouvel onglet) : aucune ressource Calendly n'est chargée tant que vous ne cliquez pas dessus. En cliquant, vous accédez au site de Calendly, qui applique sa propre politique de cookies et de confidentialité, indépendante de celle de ce site.</p>
 
   <h2>8. Liens externes</h2>
   <p>Le site peut contenir des liens vers des sites tiers (jaydenis.com, aivalue.fr, sites institutionnels, etc.). JDENIS Consulting n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu.</p>
